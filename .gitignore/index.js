@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login('NjcxMzU0MDQ3MzcwMTAwNzM2.Xi7tvQ.In1IeqfQhaMppey7t0Brs2K47aI');
+bot.login(procces.env.TOKEN);
 
 bot.on('ready', () => {
     bot.user.setActivity("LOST STAR");
